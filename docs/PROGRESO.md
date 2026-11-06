@@ -43,3 +43,13 @@ El agente agrega una entrada al terminar cada tarea, según el procedimiento de 
 - **Comando de pruebas:** `.venv\Scripts\python -m pytest -v`
 - **Resultado:** 33 passed in 0.29s (Python 3.13.6, pytest 9.2.0). Prueba de concurrencia repetida 5 veces con el código final: 5 passed.
 - **Pendientes:** revisión humana y commits (autora); completar `[completar]` del README.
+
+---
+
+## 2026-11-06 — Enlaces a commits en el README
+- **Tarea pedida:** completar los `[commit: completar]` de los episodios con los hashes reales.
+- **Archivos:** `README.md` (enlaces en episodios 1-3, nota de cambio de modelo, se quitó el pendiente de enlaces), `docs/PROGRESO.md`.
+- **Decisiones:** cada episodio enlaza a los commits que contienen su código o prueba: `8a8dc66` (reglas y persistencia), `9ad2280` (CLI y pruebas), `00f6afe` (documentación). La autora completó el motivo del modelo y las decisiones humanas. Esta tarea se hizo con `claude-opus-5-5` (cambio con `/model`).
+- **Comando de pruebas:** `.venv\Scripts\python -m pytest -q`
+- **Resultado:** 33 passed in 0.28s.
+- **Pendientes:** commit final y `git push` (autora); comprobar acceso al repo y enviar el email.
